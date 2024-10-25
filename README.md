@@ -24,3 +24,27 @@ Utilized AWS services like VPC, IAM, CloudWatch, and SNS for infrastructure mana
 7.Utilized AWS services like VPC for network segmentation, IAM for user management, CloudWatch for monitoring, and SNS for notifications.
 
 8.Tools used: Git, GitHub, Jenkins, HTTPD, Maven, Ansible, Docker, AWS (EC2, VPC, IAM, CloudWatch, SNS).
+
+### Key Components:
+1. *AWS VPC:* Secure network for hosting the infrastructure.
+2. *Developer Machine (EC2):* Code is written and pushed to GitHub.
+3. *Jenkins & Maven Integration:* Jenkins pulls code from GitHub, builds it using Maven, and creates a .war file.
+4. *Ansible:* Manages deployments and passes the .war file to the Docker container.
+5. *Docker:* Application is hosted in a Docker container.
+6. *CloudWatch & SNS:* Monitoring and alerting for infrastructure.
+
+
+
+## AWS Services Used:
+- *VPC:* Configured for the network.
+- *EC2 Instances:* Hosted developer, Jenkins, Ansible, and Docker environments.
+- *IAM:* Managed user permissions.
+- *CloudWatch:* Monitored the system.
+- *SNS:* Sent notifications on deployments and incidents.
+
+## DevOps Tools:
+- *Jenkins:* Automated CI/CD pipeline.
+- *Maven:* Build tool for the application.
+- *Ansible:* Automates the deployment process.
+- *Docker:* Containerized application hosting.
+-
